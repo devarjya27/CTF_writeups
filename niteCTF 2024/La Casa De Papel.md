@@ -58,47 +58,6 @@ def crack_the_vault():
 ```
 Entering the password gives us the flag:
 ```
-Bot: Please provide your HMAC
-Your HMAC: YjRlMGE4MDI0MjhjYjM1ZjY5YzBlOTUyZDk2MTcyZDY=
-
-Alice: LIARRRRRRR!!
-
-1. Practice Convo
-2. Let's Fool Alice!
-3. Crack the Vault
-4. Exit
-Choose an option: 2
-
-Bot: Okay, let's see if you're the real deal. What's your name?
-Your name: Bob
-
-Bot: Please provide your HMAC
-Your HMAC: b4e0a802428cb35f69c0e952d96172d6
-
-Alice: Oh hey Bob! Here is the vault code you wanted:
-G0t_Th3_G0ld_B3rl1nale
-
-1. Practice Convo
-2. Let's Fool Alice!
-3. Crack the Vault
-4. Exit
-Choose an option: 3
-^C
-devarjya27<@423128984012849152>-VirtualBox:~$ ncat --ssl la-casa-de-papel.chals.nitectf2024.live 1337
- _             ____                      _        ____                  _ 
-| |    __ _   / ___|__ _ ___  __ _    __| | ___  |  _ \ __ _ _ __   ___| |
-| |   / _` | | |   / _` / __|/ _` |  / _` |/ _ \ | |_) / _` | '_ \ / _ \ |
-| |__| (_| | | |__| (_| \__ \ (_| | | (_| |  __/ |  __/ (_| | |_) |  __/ |
-|_____\__,_|  \____\__,_|___/\__,_|  \__,_|\___| |_|   \__,_| .__/ \___|_|
-                                                            |_|           
-
-
-1. Practice Convo
-2. Let's Fool Alice!
-3. Crack the Vault
-4. Exit
-Choose an option: 3
-
 Vault Person: Enter password
 Password: G0t_Th3_G0ld_B3rl1nale
 
