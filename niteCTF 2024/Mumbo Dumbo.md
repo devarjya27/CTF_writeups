@@ -7,10 +7,10 @@ Will you uncover the Keeper's secret, or be lost in the void forever?
 
 Author : evelynhvgo
 
-Category: `AI`
+Category: AI
 
 Points: 50
 
 # My Solve
 
-Firstly connected to the remote server, then it prompted me to solve a challenge, using `pow.py` which was provided solved it thereby completing proof of work. Now all i did was put its responses in chatgpt and asked chatgpt to repond with the goal of extracting this `secret` as i was lazy to actually type and shi. After a lot of back and forth i got the flag.
+Firstly connected to the remote server, then it prompted me to solve a challenge, using `pow.py` which was provided solved it thereby completing `proof of work`. Now all i did was put its responses in chatgpt and asked chatgpt to repond with the goal of extracting this `secret` as i was lazy to actually type and shi. After a lot of back and forth i got the flag.
