@@ -3,12 +3,12 @@ Word on the street is Bob's about to make a big withdrawal. Too bad you're the o
 
 Author: Wixter_07
 
-Category: `Crypto`
+Category: Crypto
 
 Points: 50
 
 # My Solve
-Opening `chall.py` we can see that `practice convo` hashes our input with `secret` keeping this in mind lets move forward.
+Opening `chall.py` we can see that `practice convo` hashes our input with `secret`. Keeping this in mind lets move forward.
 ```
 def practice_convo(secret):
     message = input("Send a message: ")
@@ -16,7 +16,7 @@ def practice_convo(secret):
     print(f"Here is your encrypted message: {hash}")
 ```
 
-Now `fool_alice` prompts us for our name and if our name contains `Bob` then we have succeeded in semi-fooling alice. Now we are prompted for `HMAC` now this should match with the hashed `user_name`.
+Now `fool_alice` prompts us for our name and if our name contains `Bob` then we have succeeded in "semi-fooling" alice. Now we are prompted for `HMAC` now this should match with the hashed `user_name`.
 ```
 def fool_alice(secret):
     print("\nBot: Okay, let's see if you're the real deal. What's your name?")
@@ -38,7 +38,7 @@ def fool_alice(secret):
         print("\nAlice: IMPOSTERRRR")
 ```
 
-So all i did was connect to the remote server and initially did `practice convo` and hashed `Bob`. Now for `fool alice` entered the username `Bob` and entered the hash which was returned in `practice_convo` when we are prompted for `HMAC`
+I connected to the remote server and started with the `practice_convo` command, where I entered the username `Bob`. The server returned an `HMAC` as the output. For the `fool_alice` step, I used the same username `Bob` and provided the previously returned `HMAC` as the response when prompted for it.
 
 The bot returns `G0t_Th3_G0ld_B3rl1nale`
 ```
@@ -56,7 +56,7 @@ def crack_the_vault():
         else:
             print("Incorrect password!")
 ```
-Entering the password gives us the flag:
+Entering the password, `G0t_Th3_G0ld_B3rl1nale`, gives us the flag:
 ```
 Vault Person: Enter password
 Password: G0t_Th3_G0ld_B3rl1nale
